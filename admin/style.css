@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-body{
+    font-family: "Poppins", sans-serif ;
+    display: flex;
+    justify-content: center;
+}
+
+.main-body{
+    background: hsl(19, 100%, 96%);
+    border-radius: 10px;
+    width: 50%;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.main-body .container{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.main-body .container .input{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.main-body button{
+    background: #f56a07;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;    
+}
+
+.main-body button:hover{
+    background: #a5571f;
+}
+
+/* Dashboard Design */
+/* .dashboard-header{
+    width: 100%;
+    background-color: #f56a07;
+    padding: 10px 40px;
+    text-align: right;
+    color: white;
+} */
+
+.dashboard-main{
+    background: hsl(19, 100%, 96%);
+    display: flex;
+}
+
+.dashboard-main .side-bar{
+    width: 20%;
+    height: 100vh;
+    background-color: #f56a07;
+}
+
